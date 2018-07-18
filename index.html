@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contoh Sederhana Menggunakan Garuda Route</title>
+	<script src="https://www.cdn.lamhotsimamora.com/garuda2/"></script>
+	<script src="http://localhost/Garuda-Javascript/src/garuda-route.js"></script>
+	<!-- <script src="https://www.cdn.lamhotsimamora.com/garuda-route/"></script> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<br>
+	<div class="container">
+		<!-- 
+			 Tag element <garuda-route-link> berikut ini akan dirender 
+			 secara otomatis menjadi tag element LINK <a href=""></a> 
+		-->
+		<garuda-route-link class="badge badge-primary" id="1" route="Home"></garuda-route-link>
+		<garuda-route-link class="badge badge-success" id="2" route="Profile"></garuda-route-link>
+		<garuda-route-link class="badge badge-danger" id="3" route="User"></garuda-route-link>
+		<garuda-route-link class="badge badge-secpndary" id="4" route="About"></garuda-route-link>
+	</div>
+
+    <br>
+
+	<div id="app" class="container">
+		<!-- response dari route akan dirender disini -->
+	</div>
+
+
+</body>
+<script src="route.js"></script>
+</html> 
